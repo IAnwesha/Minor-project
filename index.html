@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>weather app</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+	<!-- bootstap css -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+  
+</head>
+<body>
+  <video autoplay muted loop id="video-background">
+    <source src="vc.mp4" type="video/mp4">
+    Your browser does not support the video tag.  </video>
+    <div class="row" id="headRow"></div>
+      <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<nav class="navbar navbar-default" id="nav_bar">
+  <div class="container">
+    <!-- Brand and toggle get grouped for better mobile display -->
+<!--
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navLinks" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+-->
+   
+    
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="navLinks">
+	  <a class="navbar-brand app-name" href="index.html"><img src="logo.png" class="img-responsive" id="logo" alt=""><strong style="color: white;">Weather App</strong></a>
+      <ul class="nav navbar-nav navbar-right" id="nav_list">
+        <li><a href="current.html">Current</a></li>
+        <li><a href="forecast.html">Forecast</a></li>
+      </ul>
+
+</nav>
+
+  
+<div class="row" id="headRow">
+	<div class="col-md-12" id="colText">
+		<h2 class="text-center" id="tagline">Weather at a Glance: Simple and Accurate.</h2>
+		<h2 class="text-center" id="tagline-2">Your City, Your Weather.</h2>
+		<ul class="list-inline" id="list_inline">
+			<li>Temperature</li><span class="blink"> | </span>
+			<li>Pressure</li><span class="blink"> | </span>
+			<li>Wind Speed</li><span class="blink"> | </span>
+			<li>Humidity</li><span class="blink"> | </span>
+		</ul>
+	</div>
+</div>
+<!--Jquery-->
+<script
+  src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+<!--bootstarp javascript-->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>
